@@ -1,0 +1,54 @@
+ html {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+ }
+ 
+ body {
+    width: 80%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(171, 171, 171);
+
+}
+
+.note {
+    background-color: rgb(255, 247, 157);
+    width: 160px;
+    height: 160px;
+    border-top: 1px solid rgba(98, 98, 104, .5); 
+    box-shadow: 5px 15px 27px  rgba(98, 98, 109);
+    transform: rotate(354deg);
+    z-index: 5;
+    font-family: 'Permanent Marker';
+    padding: 30px;
+}
+
+h3 {
+    margin:0;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+#blue {
+    background-color: lightskyblue;
+    z-index: 3;
+    transform: rotate(5deg);
+}
+
+#green {
+    background-color: lightgreen;
+    z-index: 1;
+    transform: rotate(10deg);
+}
+
+#pink {
+    background-color: rgb(243, 88, 199);
+    z-index: 2;
+}
